@@ -1,0 +1,1 @@
+close all;Data = load('Data.dat');figure()plot(Data(:,1), Data(:,2))figure()plot(Data(:,1), Data(:,3))figure()plot(Data(:,1), Data(:,4))figure()plot(Data(:,1), Data(:,5))figure()plot(Data(:,1), Data(:,6))figure()plot(Data(:,1), Data(:,7))figure()plot(Data(:,1), Data(:,8))figure()plot(Data(:,1), Data(:,9))figure()plot(Data(:,1), Data(:,10))

@@ -1,0 +1,1 @@
+clear; clc;Data = load('Data.dat');figure()plot(Data(:,1), Data(:,2))

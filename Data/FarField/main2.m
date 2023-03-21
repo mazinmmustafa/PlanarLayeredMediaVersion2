@@ -1,0 +1,1 @@
+clear; clc;Data = load('DataVsExact.dat');E_Exact = Data(:,4);E_Exact(E_Exact>1E2) = 0;figure()hold onplot(Data(:,1)*180/pi, Data(:,3))plot(Data(:,1)*180/pi, E_Exact,'--')hold off##ylim([0 20])
